@@ -1,0 +1,19 @@
+body {  
+   background-color: yelow; /*color de fondo del body*/  
+} 
+
+p { 
+   font-family: Verdana; /*tipo de letras (Verdana en mayúscula por convención) */  
+   text-align: justify; /*alineación del texto*/  
+   color:red; /*color de la fuente*/ 
+   font-size:24px; /*tamaño de la fuente (corregido) */ 
+   font-style:italic; /*estilo */ 
+   font-weight:bold; /* negrita o fuerte*/ 
+}  
+
+/* color y alineación de la etiqueta h1*/  
+h1 {  
+   background-color:DodgerBlue; 
+   font-weight: bold; /* negrita o fuerte*/ 
+   text-align: center; /*alineación*/ 
+}

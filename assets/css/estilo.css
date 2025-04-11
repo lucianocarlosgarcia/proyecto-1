@@ -1,0 +1,116 @@
+/*Eliminamos los márgenes y paddings que agrega el navegador por defecto */  
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/*selector de clase*/
+.p1 {
+   font-family: Helvetica, sans-serif;
+}
+body {  
+   font-family: 'Ubuntu', sans-serif;
+   background-color:#dda15e; /*color de fondo del body*/ 
+   padding-top: 0px; 
+} 
+
+p { 
+   font-family: Verdana, Helvetica, sans-serif; /*tipo de letras (Verdana en mayúscula por convención) */  
+   text-align: justify; /*alineación del texto*/  
+   color:white; /*color de la fuente*/ 
+   font-size:20px; /*tamaño de la fuente (corregido) */ 
+   padding-top:20px;
+   /*font-weight:bold; *//* negrita o fuerte*/ 
+}  
+
+/* color y alineación de la etiqueta h1*/  
+h1 { 
+
+   font-weight: bold; /* negrita o fuerte*/ 
+   text-align: center; /*alineación*/ 
+}
+.header {
+  margin-top: 35px;
+  background-color: #e9c46a;
+  padding: 35px;
+}
+img.responsive {
+    max-width: 100%;  /* La imagen no será más ancha que su contenedor */
+    height: auto;     /* Mantiene la proporción original */
+    display: block;   /* Elimina espacio extra debajo de la imagen */
+    margin: 0 auto;   /* Centra la imagen horizontalmente (opcional) */
+}
+/* Estilo base */
+img.responsive {
+    height: auto;
+}
+
+.mi-footer 
+{  
+    background-color: white; /* Fondo blanco */
+    color:#333; /* Color de texto oscuro para contraste */
+    font-family: "Helvetica", Arial, sans-serif; /* Fuente Helvetica con respaldos */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #eee; /* Línea sutil para separar el footer */
+    margin-top: 5px;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ----- Corrección clave: hover en íconos ----- */
+.social-icons a {
+    color: #555;
+    font-size: 20px;
+    text-decoration: none; /* Elimina subrayado de enlaces */
+    transition: color 0.3s ease; /* Suaviza la transición */
+}
+
+.social-icons a:hover {
+    color: #1877f2; /* Azul de Facebook al hover */
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #e4405f;
+    } /* Rosa de Instagram al hover (solo para este ícono) *
+/*-----------------------------------------------------------------------*/
+.menu {
+    background-color: white; /* Fondo blanco */
+    font-family: "Helvetica", Arial, sans-serif; /* Fuente Helvetica */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil opcional */
+}
+
+.menu ul {
+    list-style: none; /* Elimina los puntos o viñetas de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú */
+    gap: 30px; /* Espacio entre elementos */
+}
+.nabvar{
+    padding:20px
+}
+
+.menu li a {
+    color: #ffe5d9; /* Letras negras */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.5s ease; /* Transición suave para el hover */
+}
+
+/* Efecto hover: cambia a color azul (puedes personalizarlo) */
+.menu li a:hover {
+    color: #bc6c25; /* Azul moderno */
+    /* Opcional: fondo al hover */
+    /* background-color: #f5f5f5; */
+}
